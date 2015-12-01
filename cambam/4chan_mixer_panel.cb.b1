@@ -238,8 +238,6 @@
           </primitive>
           <TargetDepth state="Value">-0.002</TargetDepth>
           <DepthIncrement state="Default">0.4</DepthIncrement>
-          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
-          <CutOrdering state="Default">DepthFirst</CutOrdering>
         </engrave>
         <drill>
           <WorkPlane state="Default">XY</WorkPlane>
@@ -268,6 +266,17 @@
             <prim>6</prim>
             <prim>22</prim>
             <prim>23</prim>
+            <prim>18</prim>
+            <prim>21</prim>
+            <prim>32</prim>
+            <prim>20</prim>
+            <prim>24</prim>
+            <prim>25</prim>
+            <prim>5</prim>
+            <prim>8</prim>
+            <prim>10</prim>
+            <prim>11</prim>
+            <prim>14</prim>
           </primitive>
           <TargetDepth state="Value">-3.2</TargetDepth>
           <DepthIncrement state="Value">0.1</DepthIncrement>
@@ -281,88 +290,6 @@
           <Dwell state="Default">0</Dwell>
           <CustomScript state="Default" />
         </drill>
-        <drill>
-          <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Default">Experimental</OptimisationMode>
-          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Value">3.175</ToolDiameter>
-          <ToolNumber state="Value">3</ToolNumber>
-          <ToolProfile state="Default">EndMill</ToolProfile>
-          <PlungeFeedrate state="Value">1100</PlungeFeedrate>
-          <CutFeedrate state="Value">2000</CutFeedrate>
-          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default" />
-          <CustomMOPHeader state="Default" />
-          <CustomMOPFooter state="Default" />
-          <Name>jacks</Name>
-          <StockSurface state="Default">0</StockSurface>
-          <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Default">3</ClearancePlane>
-          <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Default">1000</SpindleSpeed>
-          <SpindleRange state="Default">0</SpindleRange>
-          <VelocityMode state="Default">Undefined</VelocityMode>
-          <primitive>
-            <prim>18</prim>
-            <prim>21</prim>
-            <prim>32</prim>
-            <prim>20</prim>
-            <prim>24</prim>
-            <prim>25</prim>
-          </primitive>
-          <TargetDepth state="Value">-3.2</TargetDepth>
-          <DepthIncrement state="Value">0.1</DepthIncrement>
-          <HoleDiameter state="Value">6.25</HoleDiameter>
-          <DrillLeadOut state="Default">False</DrillLeadOut>
-          <SpiralFlatBase state="Default">True</SpiralFlatBase>
-          <LeadOutLength state="Default">0</LeadOutLength>
-          <DrillingMethod state="Default">SpiralMill_CW</DrillingMethod>
-          <PeckDistance state="Default">0</PeckDistance>
-          <RetractHeight state="Default">3</RetractHeight>
-          <Dwell state="Default">0</Dwell>
-          <CustomScript state="Default" />
-        </drill>
-        <pocket>
-          <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Default">Experimental</OptimisationMode>
-          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Value">3.175</ToolDiameter>
-          <ToolNumber state="Value">3</ToolNumber>
-          <ToolProfile state="Default">EndMill</ToolProfile>
-          <PlungeFeedrate state="Value">1000</PlungeFeedrate>
-          <CutFeedrate state="Value">2000</CutFeedrate>
-          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default" />
-          <CustomMOPHeader state="Default" />
-          <CustomMOPFooter state="Default" />
-          <Name>pots</Name>
-          <StockSurface state="Default">0</StockSurface>
-          <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Default">3</ClearancePlane>
-          <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Default">1000</SpindleSpeed>
-          <SpindleRange state="Default">0</SpindleRange>
-          <VelocityMode state="Default">Undefined</VelocityMode>
-          <primitive>
-            <prim>12</prim>
-            <prim>13</prim>
-            <prim>38</prim>
-            <prim>39</prim>
-          </primitive>
-          <TargetDepth state="Value">-3.2</TargetDepth>
-          <DepthIncrement state="Value">0.1</DepthIncrement>
-          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
-          <CutOrdering state="Default">DepthFirst</CutOrdering>
-          <StepOver state="Default">0.4</StepOver>
-          <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
-          <MillingDirection state="Default">Conventional</MillingDirection>
-          <CollisionDetection state="Default">True</CollisionDetection>
-          <LeadInMove state="Default" />
-          <LeadOutMove state="Default" />
-          <RegionFillStyle state="Default">InsideOutsideOffsets</RegionFillStyle>
-          <FinishStepover state="Default">0</FinishStepover>
-          <FinishStepoverAtTargetDepth state="Default">False</FinishStepoverAtTargetDepth>
-        </pocket>
         <profile>
           <WorkPlane state="Default">XY</WorkPlane>
           <OptimisationMode state="Default">Experimental</OptimisationMode>

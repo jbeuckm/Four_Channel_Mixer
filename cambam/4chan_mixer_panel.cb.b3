@@ -231,6 +231,10 @@
             <prim>7</prim>
             <prim>1</prim>
             <prim>73</prim>
+            <prim>29</prim>
+            <prim>30</prim>
+            <prim>31</prim>
+            <prim>33</prim>
           </primitive>
           <TargetDepth state="Value">-0.002</TargetDepth>
           <DepthIncrement state="Default">0.4</DepthIncrement>
